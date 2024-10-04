@@ -1,0 +1,15 @@
+GET http://localhost:5295/games
+
+###
+GET http://localhost:5295/games/2
+
+###
+POST http://localhost:5295/games
+Content-Type: application/json
+
+{
+    "name": "csGO",
+    "genre": "FPS",
+    "price": 24.33,
+    "releaseDate": "2024-10-04"
+}
