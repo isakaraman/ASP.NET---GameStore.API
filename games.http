@@ -1,31 +1,31 @@
 GET http://localhost:5295/games
 
 ###
-GET http://localhost:5295/games/1
+GET http://localhost:5295/games/4
 
 ###
 POST http://localhost:5295/games
 Content-Type: application/json
 
 {
-    "name": "csGO",
-    "genre": "FPS",
-    "price": 24.33,
-    "releaseDate": "2024-10-04"
+    "name": "Risk",
+    "genreId": 4,
+    "price": 2.33,
+    "releaseDate": "2022-12-04"
 }
 
 ###
-PUT http://localhost:5295/games/3
+PUT http://localhost:5295/games/4
 Content-Type: application/json
 
 {
-    "name": "RISK",
-    "genre": "coop",
-    "price": 19.99,
+    "name": "RISKII",
+    "genreId": 4,
+    "price": 29.99,
     "releaseDate": "1992-07-15"
 }
 
 ###
-DELETE http://localhost:5295/games/1
+DELETE http://localhost:5295/games/4
 
 
